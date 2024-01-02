@@ -28,7 +28,6 @@
  * =================================================================== 
  */
 
-
 /** 
  * ===================================================================
  * 01. webfonts and iconfonts - (_document-setup.scss)
@@ -744,6 +743,47 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	padding: 0;
 }
 
+.whatsapp_float{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 75px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatsapp_float:hover {
+    background-color: #128C7E;
+    cursor: pointer;
+}
+
+.whatsapp_icon{
+    font-size: 24px;
+    color: #FFF;
+}
+
+/* Estilos para telas com largura de até 600px */
+@media (max-width: 600px) {
+    .whatsapp_float {
+        width: 50px;
+        height: 50px;
+        bottom: 20px;
+        right: 20px;
+    }
+
+    .whatsapp_icon {
+        font-size: 20px;
+    }
+}
 
 /** 
  * ===================================================================
