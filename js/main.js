@@ -234,13 +234,17 @@
 	var fadeOutTime = 400; // how slow/fast you want the button to hide
 	var scrollSpeed = 300; // how slow/fast you want the button to scroll to top. can be a value, 'slow', 'normal' or 'fast'
 
-	$(window).scroll(function() {
-		var height = $('#intro').height(); // Substitua '#intro' pelo id da sua seção inicial
-		if($(window).scrollTop() > height) {
-			$('.whatsapp_float').show();
-		} else {
-			$('.whatsapp_float').hide();
-		}
+	$(document).ready(function() {
+		$('.whatsapp_float').hide();
+	
+		$(window).scroll(function() {
+			var height = $('#intro').height(); // Substitua '#intro' pelo id da sua seção inicial
+			if($(window).scrollTop() > height) {
+				$('.whatsapp_float').show();
+			} else {
+				$('.whatsapp_float').hide();
+			}
+		});
 	});
 
    // Show or hide the sticky footer button
