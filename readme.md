@@ -19,7 +19,7 @@ O portfólio é composto por várias seções, incluindo:
 - Uma seção de portfólio destacando meus projetos
 - Uma seção de contato para entrar em contato comigo
 
-Você pode visualizar o portfólio ao vivo [aqui] (https://stanleydevtech.netlify.app/)
+Você pode visualizar o portfólio ao vivo [aqui](https://stanleydevtech.netlify.app/).
 
 ## Tecnologias Utilizadas
 
